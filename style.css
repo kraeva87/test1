@@ -1,0 +1,296 @@
+@import "/css/icons_font.css";
+
+body {
+    margin: 0;
+    padding: 0;
+}
+p, span, a, h1, h2, h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    color: #000000;
+    text-decoration: none;
+}
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+    position: relative;
+    overflow: hidden;
+}
+header {
+    background: #CBECFF;
+    position: relative;
+}
+.header_background {
+    position: relative;
+    max-width: 100%;
+}
+.switch {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    z-index: 9999;
+}
+.switch span {
+    font-size: 14px;
+    line-height: 140%;
+    color: #29374E;
+    padding: 4px;
+    cursor: pointer;
+}
+.switch span.active {
+    color: #0962E8;
+    background: #FFFFFF;
+    border-radius: 12px;
+}
+.first_screen_text {
+    padding-top: 0;
+    min-height: 300px;
+}
+h1 {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 130%;
+    color: #29374E;
+    margin: 0 0 11px;
+}
+h1 span {
+    letter-spacing: 0.006em;
+    color: #0962E8;
+    background: #FFFFFF;
+    border-radius: 20px;
+    padding-left: 17px;
+    padding-right: 7px;
+}
+header p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    color: #29374E;
+}
+header .sub_text {
+    font-size: 22px;
+    line-height: 130%;
+    margin: 0 0 38px;
+}
+a.order_demo {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140%;
+    color: #FFFFFF;
+    background: #0962E8;
+    border-radius: 12px;
+    padding: 14px 20px;
+    width: 100%;
+    text-align: center;
+}
+header .two_column img {
+    padding-bottom: 20px;
+}
+
+header .advantages {
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    column-gap: 20px;
+    max-width: 1100px;
+    margin-top: 60px;
+}
+header .advantages div {
+    width: calc( ( 100% - 20px ) / 2 );
+    background: #FFFFFF;
+    box-shadow: 6px 4px 12px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    position: relative;
+    margin: 0 0 20px;
+}
+header .advantages div i {
+    font-size: 24px;
+    color: #0962E8;
+    background: #EFF9FF;
+    border-radius: 40px;
+    position: relative;
+    text-align: center;
+    padding: 8px 0;
+    margin-left: 20px;
+    width: 40px;
+}
+header .advantages div p {
+    padding: 22px 60px 22px 20px;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    margin: 0 0 4px;
+    line-height: 130%;
+    letter-spacing: -0.03em;
+    color: #29374E;
+}
+span.blue {
+    color: #0962E8;
+}
+
+.two_column {
+    display: block;
+    width: 100%;
+}
+.two_column > div {
+    width: calc( ( 100% - 20px ) / 2 );
+}
+
+.blue_background, .blue_background .two_column, .third_screen.two_column .two_column {
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    column-gap: 20px;
+}
+.blue_background > div {
+    width: 100%;
+    background: #E9F6FF;
+    border-radius: 30px;
+    padding-top: 17px;
+    margin: 0 0 20px;
+}
+.blue_background h3 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+    margin: 0 0 12px;
+}
+.blue_background p {
+    font-size: 14px;
+    line-height: 140%;
+}
+.blue_background img {
+    max-width: 218px;
+    max-height: 291px;
+}
+.platform_for_auto, .platform_for_robo {
+    padding: 20px;
+}
+
+.second_screen {
+    margin-top: 40px;
+}
+.second_screen h2 {
+    text-align: center;
+    margin: 0 0 24px;
+}
+
+.third_screen {
+    margin-top: 40px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.third_screen.two_column > div {
+    width: 100%;
+}
+.third_screen h2 {
+    margin: 0 0 21px;
+}
+.third_screen .sub_text {
+    margin: 0 auto 24px;
+}
+.third_screen.two_column .two_column {
+    margin-top: 35px;
+    text-align: left;
+}
+.third_screen .two_column > div {
+    width: calc( ( 100% - 20px ) / 2 );
+    box-shadow: 6px 4px 12px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    margin: 0 0 20px;
+}
+.third_screen .two_column div p {
+    margin: 13px 0 30px;
+}
+.third_screen i {
+    font-size: 24px;
+    color: #0962E8;
+    background: #EFF9FF;
+    border-radius: 40px;
+    width: 40px;
+    text-align: center;
+    padding: 5px 0;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        padding: 0 60px;
+    }
+    .first_screen_text {
+        padding-top: 130px;
+        min-height: 678px;
+    }
+    .header_background {
+        position: absolute;
+        top: 20px;
+        max-width: 60%;
+        right: -60px;
+    }
+    header .sub_text {
+        max-width: 384px;
+    }
+    .two_column {
+        display: flex;
+        display: -webkit-flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        column-gap: 20px;
+    }
+    .two_column > div, .third_screen.two_column > div {
+        width: calc( ( 100% - 20px ) / 2 );
+    }
+    a.order_demo {
+        width: auto;
+        text-align: left;
+    }
+    h2 {
+        font-weight: 500;
+        font-size: 38px;
+        text-align: left;
+    }
+
+    header .advantages {
+        position: absolute;
+        bottom: -30px;
+        margin-top: 0;
+    }
+    header .advantages div {
+        width: calc( ( 100% - 60px ) / 4 );
+        margin: 0;
+    }
+    header .advantages div i {
+        position: absolute;
+        top: 15px;
+        right: 18px;
+        margin-left: 0;
+    }
+
+    .second_screen {
+        margin-top: 150px;
+    }
+    .second_screen h2 {
+        margin: 0 0 44px;
+    }
+
+    .third_screen {
+        margin-top: 115px;
+        text-align: left;
+    }
+    .third_screen .sub_text {
+        max-width: 405px;
+        margin: 0 0 37px;
+    }
+    .third_screen .two_column > div {
+        box-shadow: none;
+    }
+    .third_screen.two_column .two_column {
+        margin-top: 0;
+    }
+}
